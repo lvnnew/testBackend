@@ -35,3 +35,5 @@
 
 
 ## Инструкция по настроке Visual Studio Code
+
+https://gitlab.com/misc-proj/crawler/-/blob/master/docs/settingupVSC.md
