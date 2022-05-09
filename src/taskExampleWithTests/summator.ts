@@ -1,4 +1,4 @@
-const summator = (a: number, b: number) => {
+const summator = (a: number, b: number): number => {
   return a + b;
 };
 
