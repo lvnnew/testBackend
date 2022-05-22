@@ -15,6 +15,8 @@ module.exports = {
     'eslint:recommended',
   ],
   rules: {
+    '@typescript-eslint/ban-ts-comment': 'off',
+    'eslintsort-keys-fix/sort-keys-fix': 'off',
     'array-bracket-newline': 'off',
     'array-element-newline': 'off',
     'canonical/import-specifier-newline': 'off',
