@@ -1,6 +1,6 @@
 import {log} from './log';
 
-// yarn ts-node src/testRun.ts 
+// yarn ts-node src/testRun.ts
 
 const app = async () => {
   log.info('start');
