@@ -15,6 +15,7 @@ module.exports = {
     'eslint:recommended',
   ],
   rules: {
+    'unicorn/no-for-loop': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     'eslintsort-keys-fix/sort-keys-fix': 'off',
     'array-bracket-newline': 'off',
