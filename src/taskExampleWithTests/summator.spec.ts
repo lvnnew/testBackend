@@ -4,7 +4,7 @@ import summator from './summator';
 // yarn jest --testPathPattern summator
 
 describe('summator', () => {
-  it('Суммирует полодительные числа', () => {
+  it('Суммирует положительные числа', () => {
     expect(summator(4, 5)).toBe(9);
   });
 
