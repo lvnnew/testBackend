@@ -1412,10 +1412,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.2.tgz#5764ca9aa94470adb4e1185fe2e9f19458992b2e"
   integrity sha512-zCclL4/rx+W5SQTzFs9wyvvyCwoK9QtBpratqz2IYJ3O8Umrn0m3nsTv0wQBk9sRGpvUe9CwPDrQFB10f1FIjQ==
 
-"@types/node@^18.7.6":
-  version "18.7.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.6.tgz#31743bc5772b6ac223845e18c3fc26f042713c83"
-  integrity sha512-EdxgKRXgYsNITy5mjjXjVE/CS8YENSdhiagGrLqjG0pvA2owgJ6i4l7wy/PFZGC0B1/H20lWKN7ONVDNYDZm7A==
+"@types/node@^18.7.8":
+  version "18.7.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.8.tgz#6bbf2be6fbf9c187a5040d4277d24a06a18957a1"
+  integrity sha512-/YP55EMK2341JkODUb8DM9O0x1SIz2aBvyF33Uf1c76St3VpsMXEIW0nxuKkq/5cxnbz0RD9cfwNZHEAZQD3ag==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -2890,6 +2890,13 @@ eslint-plugin-jest@^26.8.3:
   version "26.8.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-26.8.3.tgz#f5d9bb162636491c8f6f0cd2743fe67c86569338"
   integrity sha512-2roWu1MkEiihQ/qEszPPoaoqVI1x2D8Jtadk5AmoXTdEeNVPMu01Dtz7jIuTOAmdW3L+tSkPZOtEtQroYJDt0A==
+  dependencies:
+    "@typescript-eslint/utils" "^5.10.0"
+
+eslint-plugin-jest@^26.8.4:
+  version "26.8.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-26.8.4.tgz#d9a894af697831ad551f7e01247e4dfbd8c689bd"
+  integrity sha512-+waIVSv2742wq7Y06jXikzRL5/wG+dDccmMnsLHjjwPDeccwbVQ7xpFoPCbd0k8qed/N2LSajjmBsw3D1C/xAQ==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
