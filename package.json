@@ -6,7 +6,7 @@
   "author": "Damir <tebuchet@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ./src/**.ts",
+    "lint": "eslint ./src/**/*.ts",
     "build": "(rm -rf dist || true) && tsc",
     "ts-node": "ts-node --files"
   },
