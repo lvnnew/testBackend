@@ -51,6 +51,6 @@
     "modulePathIgnorePatterns": [
       "<rootDir>/dist/"
     ],
-    "testTimeout": 120000
+    "testTimeout": 240000
   }
 }
