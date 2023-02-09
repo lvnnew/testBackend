@@ -15,6 +15,7 @@ public/uploads
 storybook-static
 *.png
 *.pdf
+*.zip
 data
 
 .env
