@@ -27,7 +27,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.23.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-canonical": "^37.0.3",
+    "eslint-config-canonical": "^41.1.7",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "2.28.1",
