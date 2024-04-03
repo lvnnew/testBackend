@@ -8,7 +8,9 @@
   "scripts": {
     "lint": "eslint ./src/**/*.ts",
     "build": "(rm -rf dist || true) && tsc",
-    "ts-node": "ts-node --files"
+    "ts-node": "ts-node --files",
+    "start": "node dist/index.js",
+    "dev": "yarn node-ts src/index.ts"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
