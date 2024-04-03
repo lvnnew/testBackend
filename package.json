@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "dayjs": "^1.11.5",
-    "jest-extended": "^3.0.2",
     "tslog": "^3.3.4",
     "typescript": "^5.2.2"
   },
@@ -32,16 +31,7 @@
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-standard": "^5.0.0",
     "serve": "^14.2.1",
-    "ts-jest": "^28.0.8",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "modulePathIgnorePatterns": [
-      "<rootDir>/dist/"
-    ],
-    "testTimeout": 240000
   }
 }
