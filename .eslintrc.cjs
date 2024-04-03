@@ -3,12 +3,10 @@ module.exports = {
     es2020: true,
     browser: true,
     node: true,
-    mocha: true,
   },
   extends: [
     'canonical',
 
-    // 'canonical/mocha',
     'plugin:@typescript-eslint/recommended',
     'eslint:recommended',
   ],
@@ -21,8 +19,6 @@ module.exports = {
     'canonical/import-specifier-newline': 'off',
     'canonical/destructuring-property-newline': 'off',
     'unicorn/prefer-object-from-entries': 'off',
-    'mocha/no-skipped-tests': 'off',
-    'mocha/no-global-tests': 'off',
     'unicorn/no-array-for-each': 'off',
     'canonical/id-match': 'off',
     'canonical/filename-match-exported': 'off',
@@ -138,12 +134,6 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': [
       0,
     ],
-    'mocha/no-top-level-hooks': [
-      0,
-    ],
-    'mocha/no-hooks-for-single-case': [
-      0,
-    ],
     'fp/no-delete': [
       0,
     ],
@@ -177,9 +167,6 @@ module.exports = {
     'import/unambiguous': [
       0,
     ],
-    'mocha/no-setup-in-describe': [
-      0,
-    ],
     'no-process-exit': [
       0,
     ],
@@ -187,9 +174,6 @@ module.exports = {
       0,
     ],
     'func-call-spacing': [
-      0,
-    ],
-    'mocha/max-top-level-suites': [
       0,
     ],
     'import/order': [
