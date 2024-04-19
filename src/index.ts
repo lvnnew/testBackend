@@ -26,7 +26,7 @@ let films = [
 ];
 
 app.get('/', (_req, res) => {
-  res.send('Hello World!');
+  res.send('Hello Hello World!');
 });
 
 app.get('/films', (_req, res) => {
